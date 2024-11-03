@@ -5,7 +5,7 @@ import { TbMessages } from 'react-icons/tb';
 
 export default function About() {
     return (
-      <section id="about" className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#0A0D12] to-[#151921]">
+      <section id="about" className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#0A0D12] to-[#151921] pb-5">
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 w-full h-full overflow-hidden">
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-green-400/10 rounded-full blur-[120px] animate-pulse" />
