@@ -29,7 +29,7 @@ export default function Contact() {
     ];
 
     return (
-        <div id ='contact' className="min-h-screen bg-gray-900 py-12">
+        <div id ='contact' className="max-h-fit bg-gray-900 py-12">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
