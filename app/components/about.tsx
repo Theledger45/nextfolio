@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
 import { TbMessages } from 'react-icons/tb';
 
+
 export default function About() {
     return (
       <section id="about" className="min-h-screen relative overflow-hidden bg-gradient-to-b from-[#0A0D12] to-[#151921] pb-5">
@@ -19,10 +20,10 @@ export default function About() {
             
             {/* Left Column - Text Content */}
             <div className="order-2 lg:order-1 text-center lg:text-left space-y-8">
-              {/* Name and Title */}
+              {/* Name and Title */} 
               <div className="space-y-4">
                 <div className="inline-block">
-                  <h1 className="transition-all duration-1000 hover:tracking-wide text-5xl lg:text-6xl xl:text-7xl font-bold text-white tracking-tight">
+                <h1 className="transition-all duration-1000 hover:tracking-wide text-5xl lg:text-6xl xl:text-7xl font-bold text-white tracking-tight">
                     Dontre Quarles
                   </h1>
                   <div className="h-1.5 w-1/3 bg-gradient-to-r from-green-400 to-green-400/0 mt-2" />

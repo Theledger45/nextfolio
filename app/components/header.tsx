@@ -56,6 +56,14 @@ export default function Header() {
           >
             Connect
           </Link>
+          <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdxLDLRzVQ0c5PkZiV0LSlBI4w1-bY48iLi-0DVJ7o8s2GbAQ/viewform?usp=dialog"
+            target="_blank"           
+            rel="noopener noreferrer"
+            className="text-white text-lg transition-all duration-300 hover:animate-pulse hover:text-green-400 hover:text-2xl hover:font-bold border-b-2 border-transparent hover:border-green-400 py-1 cursor-pointer"
+          >
+            I&apos;ll Build It (Maybe)
+          </a>
         </nav>
       </div>
     </header>
