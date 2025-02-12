@@ -18,15 +18,23 @@ export default function Header() {
           <span className="text-green-400 transition-colors duration-300 group-hover:text-white">
             Quarles
           </span>
-          <div>
+            <div>
             <TypeAnimation
-              sequence={[".com", 2000, "", 2000]}
-              speed={99}
-              deletionSpeed={99}
+              sequence={[
+              ".com", 2000,
+              "", 2000,
+              "University of Louisville", 2000,
+              "IFC President", 2000,
+              "", 2000,
+              "Services Vice President", 2000,
+              "Phi Kappa Tau", 2000,
+              ]}
+              speed={70}
+              deletionSpeed={70}
               repeat={Infinity}
-              className="text-white transition-colors duration-300 group-hover:text-white"
+              className="text-white transition-colors duration-300 group-hover:text-green-400"
             />
-          </div>
+            </div>
         </h1>
 
         {/* Desktop Navigation */}
