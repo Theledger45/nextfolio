@@ -105,8 +105,8 @@ export default function About() {
                 {/* Status Indicator */}
                 <div className="absolute bottom-4 -right-2 bg-[#151921] px-4 py-2 rounded-full border border-green-400/20">
                   <div className="flex items-center gap-2">
-                    <div className="w-2.5 h-2.5 rounded-full bg-green-400 animate-pulse" />
-                    <span className="text-sm text-gray-300">Available for Hire</span>
+                    <div className="w-2.5 h-2.5 rounded-full bg-red-400 animate-bounce" />
+                    <span className="text-sm text-gray-300">Building startup, be right back.</span>
                   </div>
                 </div>
               </div>

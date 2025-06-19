@@ -27,10 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased cursor-none`}
-      >
-        <CustomCursor /> {/* Add the custom cursor */}
+      <body>
         {children}
         <Analytics />
       </body>
