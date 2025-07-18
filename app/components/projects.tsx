@@ -8,15 +8,20 @@ export default function Projects() {
       link: "https://github.com/Theledger45/Traveling-Salesman-Problem-Solver-using-Genetic-Algorithms"
     },
     {
-      title: "??????",
-      description: "Full stack application for students. In progress, can't share details yet.",
-      link: "#"
+    title: "CampusXChange (In development)",
+    description: "A mobile marketplace built with React Native and Supabase, designed for college students to buy, sell, and trade items locally on campus. The app includes email authentication, item listings with photos, browsing and search filters, and an admin dashboard. Built using Expo, NativeWind for styling, and Supabase for backend services.",
+    link: "#"
     },
     {
       title: "Twitter Bot",
       description: "A Python-based Twitter Scheduler Bot with a user-friendly GUI built in Tkinter, enabling users to schedule tweets at specific times with options for recurring intervals. This bot also supports media attachments and timezone adjustments, making it a versatile tool for managing scheduled Twitter posts.",
       link: "https://github.com/Theledger45/twitterBot"
-    }
+    },
+    {
+    title: "PitchMint - AI-Powered Proposal Generator",
+    description: "A SaaS tool that helps freelancers and agencies create polished client proposals instantly using OpenAI’s GPT-4. Features include JSON-structured prompt templates, user authentication with Supabase, Stripe-powered subscription tiers, Redis caching for API efficiency, and a polished front-end built with Tailwind CSS and Next.js.",
+    link: "https://pitch-mint.com"
+  },
   ];
 
   return (

@@ -9,7 +9,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky animate-fadeIn top-0 w-full bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white z-50 shadow-lg">
+    <header className="sticky animate-fadeIn top-0 w-full bg-gradient-to-b from-[#0A0D12] to-[#151921] pb-5 text-white z-50 shadow-lg">
       <div className="container mx-auto flex items-center justify-between px-8 py-6">
         <h1 className="text-2xl group cursor-pointer border-2 border-green-400/50 rounded-3xl uppercase font-bold px-4 py-2 hover:shadow-[0_0_15px_rgba(74,222,128,0.5)] transition-all duration-1000">
           <span className="text-white transition-colors duration-300 group-hover:text-green-400">
@@ -63,14 +63,7 @@ export default function Header() {
           >
             Connect
           </Link>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdxLDLRzVQ0c5PkZiV0LSlBI4w1-bY48iLi-0DVJ7o8s2GbAQ/viewform?usp=dialog"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white text-lg transition-all duration-300 hover:animate-pulse hover:text-green-400 hover:text-2xl hover:font-bold border-b-2 border-transparent hover:border-green-400 py-1 cursor-pointer"
-          >
-            I&apos;ll Build It (Maybe)
-          </a>
+          
         </nav>
 
         {/* Mobile Menu Button */}

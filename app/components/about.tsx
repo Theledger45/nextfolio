@@ -182,7 +182,7 @@ export default function About() {
                   <span className="absolute bottom-0 left-0 w-full h-0.5 bg-green-400/50" />
                 </h4>
                 <div className="flex flex-wrap gap-3">
-                  {['Python', 'HTML', 'CSS', 'C/C++', 'Javascript'].map((skill) => (
+                  {['Python', 'HTML', 'CSS', 'C/C++', 'Javascript', 'TypeScript'].map((skill) => (
                     <span
                       key={skill}
                       className="px-4 py-2 bg-[#151921] text-green-400 rounded-full border border-green-400/20 hover:border-green-400 hover:shadow-[0_0_15px_rgba(74,222,128,0.2)] transition-all duration-300"
@@ -199,7 +199,7 @@ export default function About() {
                   <span className="absolute bottom-0 left-0 w-full h-0.5 bg-green-400/50" />
                 </h4>
                 <div className="flex flex-wrap gap-3">
-                  {['React', 'Next.JS', 'Wordpress', 'Wix'].map((skill) => (
+                  {['React', 'Next.js', 'React Native', 'Expo', 'Tailwind CSS', 'NativeWind', 'WordPress', 'Wix', 'Supabase', 'OpenAI API', 'Stripe API', 'Upstash Redis', 'Vercel'].map((skill) => (
                     <span
                       key={skill}
                       className="px-4 py-2 bg-[#151921] text-green-400 rounded-full border border-green-400/20 hover:border-green-400 hover:shadow-[0_0_15px_rgba(74,222,128,0.2)] transition-all duration-300"

@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
-import "./globals.css";
+import "./globals.css"; // includes @tailwind directives
+import { Providers } from "./providers";
 import { Analytics } from "@vercel/analytics/react";
-// import CustomCursor from "./components/CustomCursor"; // Import the CustomCursor component
+// import CustomCursor from "./components/CustomCursor"; // Optional custom cursor
+// import localFont from "next/font/local";
 
+// Uncomment and use if you want custom local fonts
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
@@ -26,10 +28,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body>
-        {children}
-        <Analytics />
+        <Providers>
+          {children}
+          <Analytics />
+        </Providers>
       </body>
     </html>
   );
